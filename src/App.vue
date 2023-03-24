@@ -16,9 +16,6 @@ export default {
 <template>
   <AppHeader />
   <AppHero />
-  <div class="container">
-    <AppTitle />
-  </div>
 </template>
 
 <style scoped></style>

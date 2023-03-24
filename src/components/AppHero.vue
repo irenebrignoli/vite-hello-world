@@ -1,16 +1,37 @@
-<script></script>
+<script>
+import AppTitle from "./AppTitle.vue";
+
+export default {
+  components: {
+    AppTitle,
+  },
+};
+</script>
 
 <template>
   <div id="jumbotron">
-    <AppTitle />
+    <div class="container">
+      <div class="text-box">
+        <AppTitle />
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
 #jumbotron {
-  height: calc(100vh - 70px);
-  background-image: url("/mountainok.webp");
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(/mountainok.webp);
   background-size: cover;
-  background-position: center;
+  filter: contrast(0.8);
+  background-position: bottom;
+}
+
+#jumbotron .text-box {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 </style>
