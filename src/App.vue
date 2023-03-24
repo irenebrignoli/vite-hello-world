@@ -1,5 +1,6 @@
 <script>
 import AppTitle from "./components/AppTitle.vue";
+import "@fontsource/roboto";
 
 export default {
   components: {
@@ -9,8 +10,9 @@ export default {
 </script>
 
 <template>
-  <AppTitle />
-  <p>ciao</p>
+  <div class="container">
+    <AppTitle />
+  </div>
 </template>
 
 <style scoped></style>

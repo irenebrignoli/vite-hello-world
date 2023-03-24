@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/roboto": "^4.5.8",
+    "get-google-fonts": "^1.2.2",
     "vue": "^3.2.47"
   },
   "devDependencies": {
